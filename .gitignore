@@ -1,3 +1,7 @@
+*.pgf
+*.png
+src/poster.pdf
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
