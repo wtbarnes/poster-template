@@ -10,7 +10,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 % Lengths are in centimeters
-\usepackage[size=custom,width=76.2,height=121.92,scale=1.0]{beamerposter}
+\usepackage[size=a0, orientation=portrait, scale=1.0]{beamerposter}
 \usetheme{gemini}
 \usecolortheme{wtbarnes}
 \usepackage{graphicx}
@@ -122,11 +122,6 @@
     This block catches your eye, so \textbf{important stuff} should probably go
     here.
 
-    Curabitur eu libero vehicula, cursus est fringilla, luctus est. Morbi
-    consectetur mauris quam, at finibus elit auctor ac. Aliquam erat volutpat.
-    Aenean at nisl ut ex ullamcorper eleifend et eu augue. Aenean quis velit
-    tristique odio convallis ultrices a ac odio.
-
     \begin{itemize}
       \item \textbf{Fusce dapibus tellus} vel tellus semper finibus. In
         consequat, nibh sed mattis luctus, augue diam fermentum lectus.
@@ -159,8 +154,6 @@
       \item \textbf{Cras vehicula blandit urna ut maximus}. Aliquam blandit nec
         massa ac sollicitudin. Curabitur cursus, metus nec imperdiet bibendum,
         velit lectus faucibus dolor, quis gravida metus mauris gravida turpis.
-      \item \textbf{Vestibulum et massa diam}. Phasellus fermentum augue non
-        nulla accumsan, non rhoncus lectus condimentum.
     \end{enumerate}
 
   \end{block}
@@ -169,23 +162,12 @@
     An example block with a figure made from a PGF plot.
     This makes it easy to keep consistent font sizes between figures and the TeX document.
 
-    \begin{columns}[c]
-      \begin{column}{0.64\colwidth}
-        \begin{figure}
-          \centering
-          \import{figures/}{example_plot.pgf}
-          \caption{This is an example of a plot generated in the PGF format with \texttt{matplotlib}.}
-          \label{fig:example}
-        \end{figure}
-      \end{column}
-      \begin{column}{0.34\colwidth}
-        Vivamus congue volutpat elit non semper. Praesent molestie nec erat acinterdum.
-        In quis suscipit erat. \textbf{Phasellus mauris felis, molestie ac pharetra quis}, tempus nec ante. Donec finibus ante vel purus mollis fermentum.
-        Sed felis mi, pharetra eget nibh a, feugiat eleifend dolor.
-        Nam mollis condimentum purus quis sodales. Nullam eu felis eu nulla eleifend bibendum nec eu lorem.
-        Vivamus felis velit, volutpat ut facilisis ac, commodo in metus.
-      \end{column}
-    \end{columns}
+    \begin{figure}
+      \centering
+      \import{figures/}{example_plot.pgf}
+      \caption{This is an example of a plot generated in the PGF format with \texttt{matplotlib}.}
+      \label{fig:example}
+    \end{figure}
 
   \end{block}
 
